@@ -148,12 +148,12 @@ jobs:
         #    cat "$JARSIGNER_LOG"
          #   rm -f "$JARSIGNER_LOG" dummy.jar
          #   exit 1
-          fi
-          rm -f "$JARSIGNER_LOG" dummy.jar
-          echo "✅ Keystore, alias, and key password are valid."
+        #  fi
+     #     rm -f "$JARSIGNER_LOG" dummy.jar
+     #     echo "✅ Keystore, alias, and key password are valid."
 
-          rm -f "$KEYTOOL_LOG"
-          echo "✅ Keystore and credentials validated."
+      #    rm -f "$KEYTOOL_LOG"
+        #  echo "✅ Keystore and credentials validated."
 
       - name: Decode GDrive OAuth2 secrets
         run: |
