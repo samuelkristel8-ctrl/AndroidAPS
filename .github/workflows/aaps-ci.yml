@@ -132,9 +132,9 @@ jobs:
        #   echo "🔐 Validating keystore, alias and password"
 
           # Create a dummy JAR file (quick method using zip)
-          echo "test" > dummy.txt
-          zip -q dummy.jar dummy.txt
-          rm dummy.txt
+         # echo "test" > dummy.txt
+         # zip -q dummy.jar dummy.txt
+         # rm dummy.txt
 
           # Attempt to validate using jarsigner
           JARSIGNER_LOG=$(mktemp)
